@@ -11,7 +11,7 @@ module.exports = {
 
   // [OPTIONAL] This is the website icon to the left of the title inside the navigation bar. It should be placed under the
   // /public directory of your GitHub project (not your OneDrive folder!), and referenced here by its relative path to /public.
-  icon: '/icons/kita.png',
+  icon: '/icons/64.png',
 
   // Prefix for KV Storage
   kvPrefix: process.env.KV_PREFIX || '',
@@ -54,6 +54,10 @@ module.exports = {
     {
       name: 'steam',
       link: 'https://steamcommunity.com/profiles/76561199069843128/',
+    },
+    {
+      name: 'bilibili',
+      link: 'https://space.bilibili.com/446896713',
     },
     {
       name: 'GitHub',
