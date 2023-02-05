@@ -11,7 +11,7 @@ module.exports = {
 
   // [OPTIONAL] This is the website icon to the left of the title inside the navigation bar. It should be placed under the
   // /public directory of your GitHub project (not your OneDrive folder!), and referenced here by its relative path to /public.
-  icon: '/icon/64.png',
+  icon: '/icon/favicon.ico',
 
   // Prefix for KV Storage
   kvPrefix: process.env.KV_PREFIX || '',
@@ -42,7 +42,7 @@ module.exports = {
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
-  protectedRoutes: ['/🌞 Private folder/u-need-a-password', '/🥟 Some test files/Protected route'],
+  protectedRoutes: ['/🗝️ Private folder'],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
   email: 'm1kuuuuu@bydcn.onmicrosoft.com',
@@ -51,6 +51,10 @@ module.exports = {
   // In the latest update, all brand icons inside font awesome is supported and the icon to render is based on the name
   // you provide. See the documentation for details.
   links: [
+    {
+      name: 'steam',
+      link: 'https://steamcommunity.com/profiles/76561199069843128/',
+    },
     {
       name: 'GitHub',
       link: 'https://github.com/HuanYuGod/onedrive-vercel-index',
